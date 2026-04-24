@@ -5,3 +5,7 @@
     Have a nice day
     Andrea Madaschi
 </p>
+<h2> Purpose of the repo</h2>
+<p>
+    This repository is meant to be 
+</p>
