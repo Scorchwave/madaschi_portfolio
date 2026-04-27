@@ -337,3 +337,25 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+.project-video-container {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  padding: 10px 15px;
+}
