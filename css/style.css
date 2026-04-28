@@ -384,3 +384,124 @@ body {
   color: #555;
   line-height: 1.6;
 }
+/* =========================
+   FULL RESET PROJECTS
+========================= */
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background: #ffffff !important;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 0 !important;
+  min-height: auto !important;
+  background-image: none !important;
+}
+
+.project-info {
+  position: static !important;
+  opacity: 1 !important;
+  display: block !important;
+  padding: 1.5rem;
+}
+
+.project-bio {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+}
+
+.project-bio h3 {
+  color: #111 !important;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.project-bio p {
+  color: #555 !important;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.project-link {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link a {
+  font-size: 1.3rem;
+  color: #111;
+}
+
+/* VIDEO IMAGE */
+
+.project-video-container {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  color: white;
+  background: rgba(0,0,0,0.55);
+  border-radius: 50%;
+  padding: 14px 18px;
+}
+
+/* =========================
+   EDUCATION FIX
+========================= */
+
+#education .card {
+  background: white !important;
+  padding: 2rem !important;
+  margin-bottom: 2rem;
+}
+
+#education .project-info,
+#education .project-bio {
+  position: static !important;
+  opacity: 1 !important;
+}
+
+#education .project-bio h3 {
+  color: #111 !important;
+}
+
+#education .project-bio p {
+  color: #555 !important;
+}
+
+/* =========================
+   FOOTER FIX
+========================= */
+
+#footer {
+  margin-top: 5rem;
+  position: relative;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+}
