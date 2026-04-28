@@ -515,3 +515,110 @@ background:#ffffff !important;
 [data-theme="dark"] .theme-switch img{
 filter: brightness(0) invert(1);
 }
+/* ===================================
+EDUCATION PREMIUM TIMELINE
+=================================== */
+
+.timeline{
+max-width:900px;
+margin:4rem auto 0;
+position:relative;
+padding-left:30px;
+}
+
+.timeline::before{
+content:"";
+position:absolute;
+left:8px;
+top:0;
+width:3px;
+height:100%;
+background:#2563eb;
+border-radius:10px;
+}
+
+.timeline-item{
+position:relative;
+margin-bottom:2rem;
+}
+
+.timeline-dot{
+position:absolute;
+left:-1px;
+top:24px;
+width:18px;
+height:18px;
+background:#2563eb;
+border-radius:50%;
+box-shadow:0 0 0 5px rgba(37,99,235,0.15);
+}
+
+.timeline-card{
+background:white;
+padding:1.8rem;
+border-radius:18px;
+box-shadow:0 15px 35px rgba(0,0,0,0.06);
+margin-left:30px;
+transition:0.3s ease;
+}
+
+.timeline-card:hover{
+transform:translateY(-5px);
+box-shadow:0 20px 45px rgba(37,99,235,0.12);
+}
+
+.timeline-card h3{
+font-size:1.2rem;
+margin-bottom:0.4rem;
+color:#0f172a;
+}
+
+.timeline-card span{
+display:block;
+font-weight:700;
+color:#2563eb;
+margin-bottom:0.8rem;
+font-size:0.95rem;
+}
+
+.timeline-card p{
+color:#475569;
+line-height:1.7;
+}
+
+/* DARK MODE */
+
+[data-theme="dark"] .timeline-card{
+background:#ffffff !important;
+}
+
+[data-theme="dark"] .timeline-card h3{
+color:#0f172a !important;
+}
+
+[data-theme="dark"] .timeline-card p{
+color:#475569 !important;
+}
+
+[data-theme="dark"] .timeline-card span{
+color:#2563eb !important;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.timeline{
+padding-left:20px;
+}
+
+.timeline-card{
+margin-left:22px;
+padding:1.3rem;
+}
+
+.timeline-card h3{
+font-size:1rem;
+}
+
+}
