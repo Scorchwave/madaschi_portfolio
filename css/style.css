@@ -128,7 +128,7 @@ ul {
 }
 
 .profile-image {
-  width: 280px;
+  width: 320px;
   max-width: 100%;
   border-radius: 50%;
   animation: bounce 1s infinite alternate;
