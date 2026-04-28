@@ -491,3 +491,27 @@ color:#0f172a !important;
 background:#ffffff !important;
 color:#0f172a !important;
 }
+/* ===================================
+FINAL DARK MODE FIX
+=================================== */
+
+[data-theme="dark"] .navbar{
+background:#020617 !important;
+border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+[data-theme="dark"] .nav-link{
+color:#ffffff !important;
+}
+
+[data-theme="dark"] .nav-link:hover{
+color:#60a5fa !important;
+}
+
+[data-theme="dark"] .hamburger .bar{
+background:#ffffff !important;
+}
+
+[data-theme="dark"] .theme-switch img{
+filter: brightness(0) invert(1);
+}
