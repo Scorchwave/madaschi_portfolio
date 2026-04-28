@@ -339,3 +339,158 @@ ul {
     font-size: 1.2rem;
   }
 }
+/* =====================================
+STEP 1 REBRAND BLUE + EDUCATION PREMIUM
+===================================== */
+
+/* COLORS */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1d4ed8;
+  --bg-primary: #f8fafc;
+  --text-color: #0f172a;
+  --card-background: #ffffff;
+}
+
+/* BODY */
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* NAVBAR */
+.navbar {
+  background: rgba(248,250,252,0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(37,99,235,0.08);
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #2563eb !important;
+  color: white !important;
+  border-radius: 999px;
+  padding: 0.9rem 1.5rem;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8 !important;
+}
+
+.btn-secondary {
+  background: #2563eb !important;
+  color: white !important;
+  border-radius: 999px;
+}
+
+.btn-secondary:hover {
+  background: #1d4ed8 !important;
+}
+
+/* LINKS */
+a:hover {
+  color: #2563eb;
+}
+
+/* HERO */
+.header-container h1,
+.header-container h2 {
+  color: #0f172a;
+}
+
+.header-container p {
+  color: #475569;
+}
+
+/* PROJECT CARDS */
+#projects .project-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 12px 30px rgba(37,99,235,0.08);
+}
+
+#projects .project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(37,99,235,0.16);
+}
+
+#projects .project-card p {
+  color: #2563eb;
+}
+
+/* EDUCATION SECTION */
+#education {
+  margin-top: 6rem;
+}
+
+#education .card {
+  background: white;
+  border-radius: 18px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-left: 6px solid #2563eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+#education .card:hover {
+  transform: translateY(-5px);
+}
+
+#education h3 {
+  font-size: 1.2rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+#education p:first-of-type {
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+#education p:last-of-type {
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* SECTION TITLES */
+.content-text h2 {
+  color: #0f172a;
+}
+
+.content-text p {
+  color: #64748b;
+}
+
+/* FOOTER */
+#footer {
+  background: #0f172a;
+}
+
+#footer a,
+#footer p {
+  color: white;
+}
+
+/* DARK MODE IMPROVED */
+[data-theme="dark"] body {
+  background: #020617;
+}
+
+[data-theme="dark"] .navbar {
+  background: rgba(2,6,23,0.92);
+}
+
+[data-theme="dark"] #projects .project-card,
+[data-theme="dark"] #education .card {
+  background: #0f172a;
+  border-color: #1e293b;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] p {
+  color: white;
+}
