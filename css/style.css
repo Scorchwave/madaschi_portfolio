@@ -5,40 +5,27 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap');
 
 /* VARIABLES */
-:root {
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
-
-  --bg-primary: #ffffff;
-  --bg-secondary: #111111;
-
-  --text-color: #222222;
-  --text-light: #666666;
-  --text-white: #ffffff;
-
-  --card-bg: #ffffff;
-  --border-light: #eeeeee;
-
-  --shadow: 0 10px 25px rgba(0,0,0,0.08);
-
-  --radius: 16px;
-  --transition: 0.3s ease;
+:root{
+--primary-color:#2563eb;
+--secondary-color:#3b82f6;
+--bg-primary:#ffffff;
+--text-color:#0f172a;
+--text-color-two:#ffffff;
+--bg-secondary:#0f172a;
+--card-background:#f8fafc;
+--bg-secondary-two:#e2e8f0;
 }
 
-[data-theme="dark"] {
-  --bg-primary: #000000;
-  --bg-secondary: #ffffff;
-
-  --text-color: #ffffff;
-  --text-light: #cccccc;
-  --text-white: #000000;
-
-  --card-bg: #111111;
-  --border-light: #222222;
-
-  --shadow: 0 10px 25px rgba(255,255,255,0.05);
+[data-theme="dark"]{
+--primary-color:#3b82f6;
+--secondary-color:#60a5fa;
+--bg-primary:#0f172a;
+--text-color:#ffffff;
+--text-color-two:#0f172a;
+--bg-secondary:#ffffff;
+--card-background:#1e293b;
+--bg-secondary-two:#334155;
 }
-
 /* RESET */
 * {
   margin: 0;
@@ -493,4 +480,13 @@ a:hover {
 [data-theme="dark"] h3,
 [data-theme="dark"] p {
   color: white;
+}
+#education .card{
+background:white !important;
+color:#0f172a !important;
+}
+
+[data-theme="dark"] #education .card{
+background:#ffffff !important;
+color:#0f172a !important;
 }
