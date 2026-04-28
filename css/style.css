@@ -128,9 +128,10 @@ ul {
 }
 
 .profile-image {
-  width: 150px;
+  width: 280px;
+  max-width: 100%;
   border-radius: 50%;
-  margin-bottom: 1.5rem;
+  animation: bounce 1s infinite alternate;
 }
 
 .header-container h1 {
