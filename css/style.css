@@ -342,12 +342,6 @@ body {
   position: relative;
 }
 
-.project-img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
 .play-button {
   position: absolute;
   top: 50%;
@@ -358,4 +352,35 @@ body {
   background: rgba(0,0,0,0.6);
   border-radius: 50%;
   padding: 10px 15px;
+}
+/* EDUCATION SECTION */
+#education {
+  margin-top: 5rem;
+}
+
+#education .card {
+  background: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+#education .project-info {
+  opacity: 1;
+  display: block;
+}
+
+#education .project-bio {
+  position: static;
+}
+
+#education h3 {
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+#education p {
+  color: #555;
+  line-height: 1.6;
 }
