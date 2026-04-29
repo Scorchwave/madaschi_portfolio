@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Olist Dashboard Marketplace</title>
+<title>Olist Marketplace Dashboard</title>
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/utilities.css">
 </head>
@@ -12,41 +13,70 @@
 
 <nav class="navbar">
 <div class="container">
+
 <h1 id="logo">
-<a href="index-it.html"><img src="assets/logo.png"></a>
+<a href="index-it.html">
+<img src="assets/logo.png" alt="Logo">
+</a>
 </h1>
 
 <ul class="nav-menu">
+
 <li><a class="nav-link" href="index-it.html">HOME</a></li>
 <li><a class="nav-link" href="index-it.html#projects">PROGETTI</a></li>
-<li><a class="nav-link" href="olist.html">IT | EN</a></li>
+<li><a class="nav-link" href="olist.html">EN | IT</a></li>
+
+<div class="theme-switch">
+<input type="checkbox" id="switch">
+<label class="toggle-icons" for="switch">
+<img class="moon" src="assets/moon.svg">
+<img class="sun" src="assets/sun.svg">
+</label>
+</div>
+
 </ul>
+
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+
 </div>
 </nav>
 
-<section class="container" style="padding-top:140px; padding-bottom:80px; text-align:center;">
+<section class="container" style="padding-top:140px; padding-bottom:80px;">
 
+<div class="content-text" style="text-align:center;">
 <h1>Olist Marketplace Dashboard</h1>
-<h2 style="margin-top:15px;">Caso Studio Power BI</h2>
+<h2 style="margin-top:20px;">Case Study Power BI</h2>
 
-<p style="max-width:700px; margin:25px auto;">
-Progetto completo di analisi e-commerce focalizzato su performance vendite,
-comportamento clienti, efficienza logistica e KPI venditori.
+<p style="max-width:700px; margin:20px auto;">
+Dashboard e-commerce end-to-end costruita per analizzare vendite,
+clienti, consegne, performance prodotti e KPI operativi.
 </p>
+</div>
 
-<div style="margin-top:50px;">
+<div style="margin-top:50px; text-align:center;">
+
 <iframe width="900" height="500"
 src="https://www.youtube.com/embed/j1pNH0o4j5Q"
+title="Olist Dashboard"
 frameborder="0"
 allowfullscreen
 style="max-width:100%; border-radius:18px;">
 </iframe>
+
 </div>
 
-<div style="margin-top:40px;">
-<a href="assets/Olist_Project.pdf" target="_blank" class="btn btn-primary">
-Scarica Report PDF
+<div style="text-align:center; margin-top:40px;">
+
+<a href="assets/Olist_Project.pdf"
+target="_blank"
+class="btn btn-primary">
+Scarica PDF Report
 </a>
+
 </div>
 
 </section>
@@ -57,5 +87,6 @@ Scarica Report PDF
 </div>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
