@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vivai Dashboard Vendite</title>
+<title>Vivai Sales Dashboard</title>
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/utilities.css">
 </head>
@@ -20,28 +21,48 @@
 </h1>
 
 <ul class="nav-menu">
+
 <li><a class="nav-link" href="index-it.html">HOME</a></li>
 <li><a class="nav-link" href="index-it.html#projects">PROGETTI</a></li>
-<li><a class="nav-link" href="vivai.html">IT | EN</a></li>
+<li><a class="nav-link" href="vivai.html">EN | IT</a></li>
+
+<div class="theme-switch">
+<input type="checkbox" id="switch">
+<label class="toggle-icons" for="switch">
+<img class="moon" src="assets/moon.svg">
+<img class="sun" src="assets/sun.svg">
+</label>
+</div>
+
 </ul>
+
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
 
 </div>
 </nav>
 
-<section class="container" style="padding-top:140px; padding-bottom:80px; text-align:center;">
+<section class="container" style="padding-top:140px; padding-bottom:80px;">
 
+<div class="content-text" style="text-align:center;">
 <h1>Vivai Sales Dashboard</h1>
-<h2 style="margin-top:15px;">Caso Studio Power BI</h2>
+<h2 style="margin-top:20px;">Case Study Power BI</h2>
 
-<p style="max-width:700px; margin:25px auto;">
-Dashboard vendite sviluppata per attività vivaistica / garden center.
-Focus su trend di fatturato, stagionalità, categorie principali e clienti.
+<p style="max-width:700px; margin:20px auto;">
+Dashboard commerciale sviluppata per un business florovivaistico,
+focalizzata su vendite, categorie prodotto, stagionalità,
+trend ricavi e comportamento clienti.
 </p>
+</div>
 
-<div style="margin-top:50px;">
+<div style="margin-top:50px; text-align:center;">
 
 <iframe width="900" height="500"
 src="https://www.youtube.com/embed/E2poyk6w070"
+title="Vivai Dashboard"
 frameborder="0"
 allowfullscreen
 style="max-width:100%; border-radius:18px;">
@@ -49,10 +70,14 @@ style="max-width:100%; border-radius:18px;">
 
 </div>
 
-<div style="margin-top:40px;">
-<a href="assets/Vivai_Project.pdf" target="_blank" class="btn btn-primary">
-Scarica Report PDF
+<div style="text-align:center; margin-top:40px;">
+
+<a href="assets/Vivai_Project.pdf"
+target="_blank"
+class="btn btn-primary">
+Scarica PDF Report
 </a>
+
 </div>
 
 </section>
@@ -63,5 +88,6 @@ Scarica Report PDF
 </div>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
