@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Olist Marketplace Dashboard</title>
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/utilities.css">
 </head>
@@ -12,41 +13,68 @@
 
 <nav class="navbar">
 <div class="container">
+
 <h1 id="logo">
-<a href="index.html"><img src="assets/logo.png"></a>
+<a href="index.html">
+<img src="assets/logo.png" alt="Logo">
+</a>
 </h1>
 
 <ul class="nav-menu">
 <li><a class="nav-link" href="index.html">HOME</a></li>
 <li><a class="nav-link" href="index.html#projects">PROJECTS</a></li>
 <li><a class="nav-link" href="olist-it.html">EN | IT</a></li>
+
+<div class="theme-switch">
+<input type="checkbox" id="switch">
+<label class="toggle-icons" for="switch">
+<img class="moon" src="assets/moon.svg">
+<img class="sun" src="assets/sun.svg">
+</label>
+</div>
 </ul>
+
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+
 </div>
 </nav>
 
-<section class="container" style="padding-top:140px; padding-bottom:80px; text-align:center;">
+<section class="container" style="padding-top:140px; padding-bottom:80px;">
 
+<div class="content-text" style="text-align:center;">
 <h1>Olist Marketplace Dashboard</h1>
-<h2 style="margin-top:15px;">Power BI Case Study</h2>
+<h2 style="margin-top:20px;">Power BI Case Study</h2>
 
-<p style="max-width:700px; margin:25px auto;">
-End-to-end e-commerce analytics project focused on revenue performance,
-customer behavior, logistics efficiency and seller KPIs.
+<p style="max-width:700px; margin:20px auto;">
+End-to-end e-commerce dashboard focused on sales,
+customers, logistics, delivery performance and KPIs.
 </p>
+</div>
 
-<div style="margin-top:50px;">
+<div style="margin-top:50px; text-align:center;">
+
 <iframe width="900" height="500"
 src="https://www.youtube.com/embed/j1pNH0o4j5Q"
+title="Olist Dashboard"
 frameborder="0"
 allowfullscreen
 style="max-width:100%; border-radius:18px;">
 </iframe>
+
 </div>
 
-<div style="margin-top:40px;">
-<a href="assets/Olist_Project.pdf" target="_blank" class="btn btn-primary">
+<div style="text-align:center; margin-top:40px;">
+
+<a href="assets/Olist_Project.pdf"
+target="_blank"
+class="btn btn-primary">
 Download PDF Report
 </a>
+
 </div>
 
 </section>
@@ -57,5 +85,6 @@ Download PDF Report
 </div>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
