@@ -170,8 +170,8 @@ align-items:center;
 }
 
 #logo img {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   filter: drop-shadow(0 4px 10px rgba(37,99,235,0.25));
 }
