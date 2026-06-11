@@ -576,10 +576,10 @@ PROJECT PAGES
   padding-bottom: 80px;
 }
 
-.project-hero {
-  text-align: center;
-  max-width: 980px;
-  margin: 0 auto;
+.project-hero{
+text-align:center;
+margin-top:80px;
+margin-bottom:5rem;
 }
 
 .project-hero h1 {
