@@ -582,10 +582,13 @@ margin-top:80px;
 margin-bottom:5rem;
 }
 
-.project-hero h1 {
-  font-size: 3rem;
-  line-height: 1.1;
-  margin-bottom: 0.9rem;
+.project-hero h1{
+font-size:3rem;
+line-height:1.1;
+margin-bottom:0.9rem;
+
+position:relative;
+z-index:1000;
 }
 
 .project-hero h2 {
