@@ -867,3 +867,18 @@ grid-template-columns:1fr;
 }
 
 }
+
+.notebook-container {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: white;
+}
+
+.notebook-container iframe {
+    width: 100%;
+    min-height: 1000px;
+    border: none;
+    display: block;
+}
