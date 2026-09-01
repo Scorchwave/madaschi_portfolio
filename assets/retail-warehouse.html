@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Retail Warehouse Analytics</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/utilities.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="container">
+
+<h1 id="logo">
+<a href="index.html">
+<img src="assets/logo.png" alt="Logo">
+</a>
+</h1>
+
+<ul class="nav-menu">
+
+<li><a class="nav-link" href="index.html">HOME</a></li>
+<li><a class="nav-link" href="index.html#projects">PROJECTS</a></li>
+<li><a class="nav-link" href="retail-warehouse-it.html">EN | IT</a></li>
+
+<div class="theme-switch">
+<input type="checkbox" id="switch">
+
+<label class="toggle-icons" for="switch">
+<img class="moon" src="assets/moon.svg">
+<img class="sun" src="assets/sun.svg">
+</label>
+
+</div>
+</ul>
+
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+
+</div>
+</nav>
+
+
+<main class="project-page container">
+
+
+<!-- PROJECT HERO -->
+
+<header class="project-hero">
+
+<h1>Retail Warehouse Analytics</h1>
+
+<h2>
+From Python ETL to Power BI
+</h2>
+
+<p class="project-description">
+End-to-end retail analytics project focused on transforming a
+large multi-table warehouse dataset into clean, validated and
+business-ready data for analysis and visualization.
+</p>
+
+<div class="keyword-container">
+
+<span class="keyword">Python</span>
+<span class="keyword">Pandas</span>
+<span class="keyword">Power BI</span>
+<span class="keyword">ETL</span>
+<span class="keyword">Data Modeling</span>
+<span class="keyword">Business Intelligence</span>
+
+</div>
+
+</header>
+
+
+<!-- DATASET -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+The Dataset
+</h2>
+
+<div class="question-grid">
+
+
+<div class="question-card">
+
+<h3>Retail Data Warehouse</h3>
+
+<p>
+The project uses a multi-table retail warehouse dataset containing
+information about customers, orders, products, categories, payments,
+shipments, returns, employees, suppliers, stores and promotions.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Large-Scale Data</h3>
+
+<p>
+The dataset contains more than one million rows distributed across
+12 interconnected tables, providing a realistic environment for
+practicing data ingestion and relational data analysis.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Relational Structure</h3>
+
+<p>
+The different entities are connected through common identifiers,
+making the dataset suitable for building a relational analytical
+model rather than working with a single flat table.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Corporate Focus</h3>
+
+<p>
+The dataset covers both commercial and operational aspects of a
+retail business, creating opportunities to investigate sales,
+customers, products and supporting business processes.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- DATASET SUMMARY -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Dataset Overview
+</h2>
+
+<div class="result-grid">
+
+<div class="result-card">
+<h3>12</h3>
+<p>Related tables</p>
+</div>
+
+<div class="result-card">
+<h3>1M+</h3>
+<p>Rows across the warehouse</p>
+</div>
+
+<div class="result-card">
+<h3>Retail</h3>
+<p>Business domain</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- KAGGLE -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Data Source
+</h2>
+
+<div class="resource-grid">
+
+<div class="resource-card">
+
+<h3>Kaggle Dataset</h3>
+
+<p>
+The original dataset is publicly available on Kaggle and is used
+as the source for the Python ETL pipeline and the subsequent
+Power BI analysis.
+</p>
+
+<a
+href="https://www.kaggle.com/datasets/datarspectrum/retail-data-warehouse-12-table-1m-rows-dataset"
+target="_blank"
+class="btn btn-primary">
+View Dataset
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PYTHON ETL -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Python ETL Pipeline
+</h2>
+
+<p class="project-description">
+The first stage of the project was developed in Python using Pandas
+and pathlib. The objective was to create a reusable workflow capable
+of ingesting, cleaning, validating and exporting the warehouse data.
+</p>
+
+
+<div class="question-grid">
+
+
+<div class="question-card">
+
+<h3>Data Ingestion</h3>
+
+<p>
+CSV files are automatically discovered from the raw data directory
+and loaded into Pandas DataFrames. The DataFrames are then organized
+inside a dictionary using the filename as the key.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Data Cleaning</h3>
+
+<p>
+The ETL process checks and removes missing values and duplicate
+records before the data is prepared for the analytical phase.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Data Transformation</h3>
+
+<p>
+The original abbreviated category identifiers were enriched with
+more readable business-oriented category names.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Data Validation</h3>
+
+<p>
+A reusable validation function checks the warehouse tables for
+missing values and duplicate records before the final export.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- JUPYTER NOTEBOOK -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Python ETL Notebook
+</h2>
+
+<p class="project-description">
+The complete Python workflow is presented below. The notebook
+documents the data ingestion, inspection, cleaning, transformation,
+validation and export stages of the project.
+</p>
+
+
+<div class="notebook-container">
+
+<iframe
+    src="assets/Retail_Warehouse_Project_portfolio.html"
+    width="100%"
+    height="1000"
+    frameborder="0"
+    loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+
+
+<!-- DATA MODEL -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Data Model Preparation
+</h2>
+
+<p class="project-description">
+Before moving to Power BI, Python was also used to identify potential
+relationships between the warehouse tables by comparing their
+column names and common identifiers.
+</p>
+
+
+<div class="question-grid">
+
+
+<div class="question-card">
+
+<h3>Relationship Discovery</h3>
+
+<p>
+The program compares the columns of the different DataFrames and
+identifies tables that share common column names.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Potential Linking Keys</h3>
+
+<p>
+Each potential relationship records the common key together with
+the two tables in which it occurs.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Relationship Inventory</h3>
+
+<p>
+The detected relationships are stored in a structured DataFrame
+and exported as a CSV file to support the subsequent Power BI
+data-modeling phase.
+</p>
+
+</div>
+
+
+<div class="question-card">
+
+<h3>Next Stage</h3>
+
+<p>
+The next stage of the project will use the cleaned data and
+identified relationships to build the analytical model and
+Power BI dashboard.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- PROJECT STATUS -->
+
+<section class="project-section">
+
+<h2 class="project-section-title">
+Project Progress
+</h2>
+
+<div class="result-grid">
+
+<div class="result-card">
+<h3>Python</h3>
+<p>ETL completed</p>
+</div>
+
+<div class="result-card">
+<h3>Data Model</h3>
+<p>Relationship analysis completed</p>
+</div>
+
+<div class="result-card">
+<h3>Power BI</h3>
+<p>Next phase</p>
+</div>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+<footer id="footer">
+
+<div class="container">
+
+<p>Andrea Madaschi Portfolio, Powered by Passion</p>
+
+</div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
